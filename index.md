@@ -7,7 +7,7 @@ I have implemented two versions of the dynamic queue. The first one is the basic
 
 
 
-### II. Basic dynamic queue
+###II. Basic dynamic queue
 
 
 
@@ -31,7 +31,7 @@ The Back() function returns the element at the last index (found by doing Size()
 
 The Size() function returns the size of the vector.
 
-### II. Optimized dynamic queue
+###II. Optimized dynamic queue
 
 Here are the function of the optimized dynamic queue :
 
