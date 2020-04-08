@@ -48,7 +48,7 @@ Here are the functions of the optimized dynamic queue :
 >int Size()
 >void Rebase()
                     
-you will also need two variables that are gonna be the index of the first and the last elements of the queue.
+you will also need two variables that are going to be the index of the first and the last elements of the queue.
 
 >size_t start _= 0, end_ _= 0;
                     
@@ -63,7 +63,6 @@ The Front() function returns the value at the index start.
 
 The Back() function returns the value at the index end after doing the operation end -1 only if the end value is not equal to zero, but if end is equal to zero it returns the value at the index end without doing the operation end -1.
 
-The Size() function returns the size of the queue by doing the operation start- end + 1
-or end - start + 1 depending on which one of the variables has the biggest value.
+The Size() function returns the size of the queue by doing the operation start- end + 1 or end - start + 1 depending on which one of the variables has the biggest value.
 
-The Rebase() function is gonna rebase all the element at the right place, the element at the start index will be at the front of the vector and all the element after the one who is at the start index will be after him and the last one will be the value at the index end of the vector, and then the vector is resized.
+The Rebase() function is going to rebase all the element at the right place, the element at the start index will be at the front of the vector and all the element after the one who is at the start index will be after him and the last one will be the value at the index end of the vector, and then the vector is resized.
